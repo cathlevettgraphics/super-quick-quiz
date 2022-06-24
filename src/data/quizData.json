@@ -2,18 +2,21 @@
   "headline": "The great big LEGO™ quiz",
   "strapline": "Awesome quiz project",
   "wrongAnswer": "Oh no! Not quite – try again ",
+  "quizEndColor": "#222",
   "quiz_questions": [
     {
       "id": 1,
       "instruction_text": "How many rubber wheels do LEGO make every year?",
       "answer_options": ["318 million", "100 million", "25", "150,000"],
-      "answer": "318 million"
+      "answer": "318 million",
+      "backgroundColor": "#00A4DD"
     },
     {
       "id": 2,
       "instruction_text": "You can combine six of the eight-studded LEGO bricks in how many ways?",
       "answer_options": ["50", "200,500", "915,103,765", "6"],
-      "answer": "915,103,765"
+      "answer": "915,103,765",
+      "backgroundColor": "#FFCF00"
     },
     {
       "id": 3,
@@ -24,59 +27,22 @@
         "260 million",
         "20 million"
       ],
-      "answer": "About 40 billion"
+      "answer": "About 40 billion",
+      "backgroundColor": "#FD8024"
     },
     {
       "id": 4,
       "instruction_text": "How many LEGO sets are sold per second at Christmas?",
       "answer_options": ["4", "200", "28", "1"],
-      "answer": "28"
+      "answer": "28",
+      "backgroundColor": "#F6ADCD"
     },
     {
       "id": 5,
       "instruction_text": "There are more LEGO figures than people on Earth...",
       "answer_options": ["True", "False"],
-      "answer": "True"
-    },
-    {
-      "id": 6,
-      "instruction_text": "On average, each person owns how many LEGO bricks?",
-      "answer_options": ["10", "200", "62", "500"],
-      "answer": "62"
-    },
-    {
-      "id": 7,
-      "instruction_text": "1961 was the first year that you could buy which Lego element?",
-      "answer_options": ["Trees", "Flowers", "Wheels", "Green bricks"],
-      "answer": "Wheels"
-    },
-    {
-      "id": 8,
-      "instruction_text": "Which of the following colors is NOT considered to be one of the original Lego brick colors?",
-      "answer_options": ["Red", "Orange", "Blue", "Yellow"],
-      "answer": "Orange"
-    },
-    {
-      "id": 9,
-      "instruction_text": " In which of these themes would you find 'Lego Alpha Team'?",
-      "answer_options": [
-        "The Purple Planet",
-        "Underwater",
-        "Center of the earth",
-        "The ancient Orient"
-      ],
-      "answer": "Underwater"
-    },
-    {
-      "id": 10,
-      "instruction_text": "'Fortune' magazine gave LEGO what distinction?",
-      "answer_options": [
-        "Toy of the Century",
-        "Super awesome toy",
-        "A high-five",
-        "Best fun ever"
-      ],
-      "answer": "Toy of the Century"
+      "answer": "True",
+      "backgroundColor": "#66BF7E"
     }
   ]
 }

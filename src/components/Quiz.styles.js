@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 
 const COLORS = {
-  blue: '#00A4DD',
-  yellow: '#FFCF00',
-  orange: '#FD8024',
-  pink: '#F6ADCD',
-  green: '#66BF7E',
   black: '#000000',
   white: '#ffffff',
 };
