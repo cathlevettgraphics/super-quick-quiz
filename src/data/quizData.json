@@ -2,7 +2,7 @@
   "headline": "The great big LEGO™ quiz",
   "strapline": "Awesome quiz project",
   "wrongAnswer": "Oh no! Not quite – try again ",
-  "quizEndColor": "#222",
+  "quizEndColor": "#FFCF00",
   "quiz_questions": [
     {
       "id": 1,
@@ -42,6 +42,51 @@
       "instruction_text": "There are more LEGO figures than people on Earth...",
       "answer_options": ["True", "False"],
       "answer": "True",
+      "backgroundColor": "#66BF7E"
+    },
+    {
+      "id": 6,
+      "instruction_text": "On average, each person owns how many LEGO bricks?",
+      "answer_options": ["10", "200", "62", "500"],
+      "answer": "62",
+      "backgroundColor": "#00A4DD"
+    },
+    {
+      "id": 7,
+      "instruction_text": "1961 was the first year that you could buy which Lego element?",
+      "answer_options": ["Trees", "Flowers", "Wheels", "Green bricks"],
+      "answer": "Wheels",
+      "backgroundColor": "#FFCF00"
+    },
+    {
+      "id": 8,
+      "instruction_text": "Which of the following colors is NOT considered to be one of the original Lego brick colors?",
+      "answer_options": ["Red", "Orange", "Blue", "Yellow"],
+      "answer": "Orange",
+      "backgroundColor": "#FD8024"
+    },
+    {
+      "id": 9,
+      "instruction_text": " In which of these themes would you find 'Lego Alpha Team'?",
+      "answer_options": [
+        "The Purple Planet",
+        "Underwater",
+        "Center of the earth",
+        "The ancient Orient"
+      ],
+      "answer": "Underwater",
+      "backgroundColor": "#F6ADCD"
+    },
+    {
+      "id": 10,
+      "instruction_text": "'Fortune' magazine gave LEGO what distinction?",
+      "answer_options": [
+        "Toy of the Century",
+        "Super awesome toy",
+        "A high-five",
+        "Best fun ever"
+      ],
+      "answer": "Toy of the Century",
       "backgroundColor": "#66BF7E"
     }
   ]

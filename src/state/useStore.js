@@ -7,11 +7,12 @@ const useStore = create((set) => ({
   setQuestionPosition: () =>
     set((state) => ({ questionPosition: state.questionPosition + 1 })),
   bgColor: data.quiz_questions[0].backgroundColor,
-  setBgColor: () =>
-    set((state) => ({
-      bgColor:
-        state.data.quiz_questions[state.questionPosition - 1].backgroundColor,
-    })),
+  setBgColor: (bgColor) =>
+    set((state) => {
+      return {
+        bgColor,
+      };
+    }),
   resetQuiz: () => set((state) => ({ questionPosition: 1 })),
 }));
 

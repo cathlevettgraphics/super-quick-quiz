@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import useStore from '../state/useStore';
 
 import QuizQuestion from './QuizQuestion';
@@ -28,9 +28,16 @@ const Quiz = () => {
 
   const numberOfQuestions = data.quiz_questions.length;
 
+  useEffect(() => {
+    setBgColor(
+      !isLastQuestion
+        ? data.quiz_questions[questionPosition - 1]?.backgroundColor
+        : data.quizEndColor,
+    );
+  }, [questionPosition]);
+
   const getNextQuestion = () => {
     setQuestionPosition();
-    setBgColor();
   };
 
   const handleQuizReset = () => {
